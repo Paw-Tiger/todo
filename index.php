@@ -1,8 +1,6 @@
 <?php
 $config = require './config.php';
 
-// connect to database
-$db = mysqli_connect($config['host'], $config['user'], $config['password'], $config['database']);
 
 require_once './lib.php';
 
